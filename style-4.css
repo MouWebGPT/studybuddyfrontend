@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.forgot-container {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 320px;
+  text-align: center;
+}
+
+.forgot-container h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.forgot-container p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #18284d;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0f1a33;
+}
+
+.back-link {
+  display: block;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #18284d;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+.back-link {
+  display: inline-block;  
+  padding: 10px 18px;
+  background: #18284d;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s, transform 0.2s;
+  margin-top: 20px; 
+  margin-left: 10px; 
+}
+
+
+.back-link:hover {
+  background: #0f1a3b;
+}

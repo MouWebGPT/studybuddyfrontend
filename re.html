@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Let's Connect</title>
+  <link rel="stylesheet" href="style-2.css" />
+</head>
+<body>
+  <div class="page">
+    <!-- Left-side illustration -->
+    <div class="illustration">
+      <img src="person.png" alt="Student working on laptop" />
+    </div>
+
+    <!-- Right-side form -->
+    <div class="form-box">
+      <div class="form-header">
+        <h1>Let's connect!</h1>
+        <p>Fill in this form to apply for partnership.</p>
+      </div>
+
+      <form>
+        <div class="row">
+          <div class="column">
+            <label for="fname">First Name<span>*</span></label>
+            <input type="text" id="fname" required />
+          </div>
+          <div class="column">
+            <label for="lname">Last Name<span>*</span></label>
+            <input type="text" id="lname" required />
+          </div>
+        </div>
+
+        <label for="email">University Email<span>*</span></label>
+        <input type="email" id="email" placeholder="your.email@university.edu" required />
+
+        <label for="university-id">University ID<span>*</span></label>
+        <input type="text" id="university-id" required />
+
+        <label for="password">Password<span>*</span></label>
+        <input type="password" id="password" required />
+
+        <label for="confirm-password">Confirm Password<span>*</span></label>
+        <input type="password" id="confirm-password" required />
+
+        <div class="checkboxes">
+          <label><input type="checkbox" required /> I agree to the Terms of Service</label>
+          <label><input type="checkbox" required /> I agree to the Privacy Policy</label>
+        </div>
+
+        <button type="submit" class="submit-btn">Create Account</button>
+        <a href="index.html" class="back-link">Back to Home</a>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

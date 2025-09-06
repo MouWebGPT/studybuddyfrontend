@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudyBuddy - Profile Form</title>
+  <link rel="stylesheet" href="style-3.css">
+</head>
+<body>
+  <div class="container">
+    <form class="profile-form">
+      <h2>Create Profile</h2>
+      <!-- First + Last Name -->
+      <label for="firstname">First Name</label>
+      <input type="text" id="firstname" name="firstname" placeholder="Enter your first name" required>
+
+      <label for="lastname">Last Name</label>
+      <input type="text" id="lastname" name="lastname" placeholder="Enter your last name" required>
+
+      <!-- Display Name -->
+      <label for="displayname">Display Name</label>
+      <input type="text" id="displayname" name="displayname" placeholder="Enter your display name" required>
+
+      <!-- Email -->
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <!-- University ID -->
+      <label for="university">University ID</label>
+      <input type="text" id="university" name="university" placeholder="Enter your ID" required>
+
+      <!-- Year -->
+      <label for="year">Year</label>
+      <select id="year" name="year">
+        <option value="">Select year</option>
+        <option value="1st">1st Year</option>
+        <option value="2nd">2nd Year</option>
+        <option value="3rd">3rd Year</option>
+        <option value="4th">4th Year</option>
+      </select>
+
+      <!-- Department -->
+      <label for="department">Department</label>
+      <select id="department" name="department">
+        <option value="">Select department</option>
+        <option value="BBA">Business Administration (BBA)</option>
+        <option value="CSE">Computer Science & Engineering (CSE)</option>
+        <option value="ENG">English</option>
+        <option value="LLA">Law (LLA)</option>
+      </select>
+
+      <!-- About -->
+      <label for="about">Write Something About You</label>
+      <textarea id="about" name="about" rows="4" placeholder="Tell us about yourself..."></textarea>
+
+      <!-- Save Button -->
+      <button type="submit">Save Profile</button>
+      
+     <a href="index.html" class="back-link">Back to Home</a>
+    </form>
+  </div>
+</body>
+</html>
